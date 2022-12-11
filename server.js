@@ -10,6 +10,7 @@ const productRouter = require("./routes/productRouter");
 // create express application
 const app = express();
 dotenv.config();
+app.use(express.json())
 
 // application rotues
 app.get("/", (req, res) => {

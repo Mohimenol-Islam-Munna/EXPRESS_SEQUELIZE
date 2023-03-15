@@ -1,6 +1,7 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../database/sequelize");
 
+// Data types 
 const { INTEGER, STRING } = DataTypes;
 
 // create model

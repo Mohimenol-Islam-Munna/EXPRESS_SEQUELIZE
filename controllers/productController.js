@@ -1,5 +1,3 @@
-const sequelize = require("../database/sequelize");
-
 // improt model
 const Product = require("../models/productModel");
 
